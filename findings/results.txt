@@ -1,0 +1,20 @@
+Results are on test data it has never seen even
+during training , not on validation set ,even there is
+its name though.. , also it might be different a little bit from images because I have trained model with more epochs , to know final results so it might not stable for some images here
+
+Models(12 Models)		  Accu-, Reca-, Preci-
+				  racy , ll   , sion
+
+val_accuracy Inc. With AUg -      0.458, 0.269, 0.727
+val_accuracy Inc. WithOut AUg -   0.446, 0.223, 0.752
+val_accuracy REsnet With AUg -    0.608, 0.674, 0.709
+val_accuracy REsnet WithOut AUg - 0.643, 0.822, 0.690
+val_accuracy VGG With AUg -       0.638, 0.770, 0.713
+val_accuracy VGG WithOut AUg -    0.618, 0.850, 0.645
+
+val_recall Inc. With AUg -        0.501, 0.352, 0.751
+val_recall Inc. WithOut AUg -     0.626, 0.794, 0.683
+val_recall Resnet With AUg -      0.598, 0.540, 0.775
+val_recall Resnet WithOut AUg -   0.528, 0.389, 0.774
+val_recall Vgg With AUg - 	      0.414, 0.153, 0.746
+val_recall Vgg WithOut AUg - 	  0.345, Error, Error
