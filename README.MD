@@ -12,6 +12,7 @@ To achieve this, we developed a Convolutional Neural Network (CNN) capable of de
 - ResNet50 outperformed VGG16 and InceptionV3.
 - Augmentation did not significantly improve model performance.
 - Experimented with different optimization techniques and loss functions for better results.
+- Despite a promising recall score, initial model performance had room for improvement.
 
 | Models (12 Models)       | Accuracy | Recall | Precision |
 |--------------------------|----------|--------|-----------|
@@ -31,7 +32,7 @@ To achieve this, we developed a Convolutional Neural Network (CNN) capable of de
 ## Model's Summary Tricks
 - Implemented a trick by changing the optimizer to 'adamax' and using Binary Cross Entropy as the loss function.
 - Also by, instead of using threshold of 0.5 , we are going to use threshold of 0.3 to classify with high recall score.
-- Despite a promising recall score, initial model performance had room for improvement.
+- This simple change SKYROCKET the recall score.
 
 ## Final Results
 - Achieved high sensitivity in detecting abnormal X-ray images.
