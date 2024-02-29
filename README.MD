@@ -27,15 +27,15 @@ To achieve this, we developed a Convolutional Neural Network (CNN) capable of de
 | val_recall ResNet With AUg | 0.598        | 0.540  | 0.775     |
 | val_recall ResNet WithOut AUg | 0.528     | 0.389  | 0.774     |
 | val_recall VGG With AUg | 0.414           | 0.153  | 0.746     |
-| val_recall VGG WithOut AUg | 0.345        | Error  | Error     |
+| val_recall VGG WithOut AUg | 0.345        | 0  | 0     |
 
 ## Model's Summary Tricks
 - Implemented a trick by changing the optimizer to 'adamax' and using Binary Cross Entropy as the loss function.
 - Also by, instead of using threshold of 0.5 , we are going to use threshold of 0.3 to classify with high recall score.
-- This simple change SKYROCKET the recall score.
+- This simple change SKYROCKETED the Recall Score.
 
 ## Final Results
-- Achieved high sensitivity in detecting abnormal X-ray images.
+- Achieved high sensitivity in detecting abnormal X-ray images by using RESNET -50 as PRE-TRAINED MODEL.
 - Utilized Grad-CAMs to visualize important regions in images for classification.
 - The model focuses on specific features crucial for accurate classification of lung diseases.
 
