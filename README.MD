@@ -13,6 +13,7 @@ To achieve this, we developed a Convolutional Neural Network (CNN) capable of de
 - Augmentation did not significantly improve model performance.
 - Experimented with different optimization techniques and loss functions for better results.
 - Despite a promising recall score, initial model performance had room for improvement.
+- VAL_ACCURACY is actually the model's TEST ACCURACY, it's the name only, so don't be confused by that.
 
 | Models (12 Models)       | Accuracy | Recall | Precision |
 |--------------------------|----------|--------|-----------|
